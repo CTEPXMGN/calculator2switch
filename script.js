@@ -2,7 +2,7 @@ function calc(operator, a, b) {
 
     switch (operator) {
         case 'add':
-            return a + b;
+            return Number(a) + Number(b);
             break;
         case 'multi':
             return a * b;
