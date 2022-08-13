@@ -12,6 +12,7 @@ function calc(operator, a, b) {
     }
 }
 
-console.log(calc('add', 2, 5));
-console.log(calc('multi', 2, 5));
-console.log(calc('subtract', 2, 5));
+console.log( calc('add', 2, 5) );
+console.log( calc('multi', 2, 5) );
+console.log( calc('subtract', 2, 5) );
+console.log( calc('add', 15, 3) );
