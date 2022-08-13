@@ -8,7 +8,7 @@ function calc(operator, a, b) {
         case 'subtract':
             return a - b;
         default:
-            break;
+            return 'Введёт неверный оператор';
     }
 }
 
