@@ -8,10 +8,11 @@ function calc(operator, a, b) {
         case 'subtract':
             return a - b;
         default:
-            break;
+            return 'Введёт неверный оператор';
     }
 }
 
-console.log(calc('add', 2, 5));
-console.log(calc('multi', 2, 5));
-console.log(calc('subtract', 2, 5));
+console.log( calc('add', 2, 5) );
+console.log( calc('multi', 2, 5) );
+console.log( calc('subtract', 2, 5) );
+console.log( calc('add', 15, 3) );
